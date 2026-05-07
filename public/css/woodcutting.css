@@ -6,38 +6,57 @@ body {
 
 .tree-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
   padding: 30px;
 }
 
 /* CARD */
 .tree-card {
   background: #1e2936;
-  border: 1px solid #2c3b4d;
-  border-radius: 14px;
+  border: 2px solid #2c3b4d;
+  border-radius: 18px;
 
-  padding: 18px;
+  padding: 32px 24px;
+
+  min-height: 260px;
+
   cursor: pointer;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
+  justify-content: center;
+
+  gap: 20px;
 
   transition: 0.2s ease;
 }
 
 .tree-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
   border-color: #58d68d;
+  box-shadow: 0 0 18px rgba(88, 214, 141, 0.25);
 }
+
 
 /* IMAGE */
 .tree-card img {
-  width: 70px;
-  height: 70px;
+  width: 120px;
+  height: 120px;
   object-fit: contain;
+
+  transition: 0.2s ease;
+}
+
+.tree-card:hover img {
+  transform: scale(1.08);
+}
+
+.tree-card span {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
 }
 
 /* TEXT */
@@ -48,12 +67,13 @@ body {
 
 /* LOCKED STATE */
 .tree-card.locked {
-  opacity: 0.4;
-  cursor: not-allowed;
+  opacity: 0.45;
   filter: grayscale(1);
+  cursor: not-allowed;
 }
 
 .tree-card.locked:hover {
   transform: none;
   border-color: #2c3b4d;
+  box-shadow: none;
 }
