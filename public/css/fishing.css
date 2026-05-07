@@ -54,7 +54,7 @@
 .fish-card:hover {
   transform: translateY(-5px);
 
-  border-color: #58d68d;
+  border-color: #649ef0;
 
   box-shadow: 0 0 18px rgba(88, 214, 141, 0.2);
 }
