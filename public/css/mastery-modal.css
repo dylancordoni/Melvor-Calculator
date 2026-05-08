@@ -1,0 +1,115 @@
+/* MODAL BACKDROP */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.7);
+
+  display: none;
+
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1000;
+}
+
+/* SHOW MODAL */
+.modal-backdrop.active {
+  display: flex;
+}
+
+/* MODAL BOX */
+.mastery-modal {
+  width: 500px;
+  max-width: 90%;
+
+  background: #1e2936;
+
+  border: 2px solid #2c3b4d;
+  border-radius: 18px;
+
+  padding: 32px;
+
+  position: relative;
+
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+/* CLOSE BUTTON */
+.close-modal {
+  position: absolute;
+
+  top: 18px;
+  right: 18px;
+
+  background: transparent;
+  border: none;
+
+  color: white;
+
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* TITLE */
+.mastery-modal h1 {
+  margin-bottom: 28px;
+}
+
+/* INPUT GROUP */
+.input-group {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 18px;
+}
+
+.input-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.input-group input {
+  background: #111827;
+
+  border: 1px solid #2c3b4d;
+  border-radius: 10px;
+
+  padding: 12px;
+
+  color: white;
+  font-size: 16px;
+}
+
+/* BUTTON */
+#calculateBtn {
+  width: 100%;
+
+  padding: 14px;
+
+  margin-top: 12px;
+
+  background: #58d68d;
+  color: black;
+
+  border: none;
+  border-radius: 12px;
+
+  font-weight: bold;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+/* RESULTS */
+.results {
+  margin-top: 28px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.results p {
+  font-size: 18px;
+}

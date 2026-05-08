@@ -5,7 +5,7 @@ export const trees = [
         levelRequired: 1,
         xp: 10,
         baseInterval: 3.0,
-        logPrice: 1
+        sellPrice: 1
     },
 
     {
@@ -14,7 +14,7 @@ export const trees = [
         levelRequired: 10,
         xp: 15,
         baseInterval: 4.0,
-        logPrice: 5
+        sellPrice: 5
     },
 
     {
@@ -23,7 +23,7 @@ export const trees = [
         levelRequired: 25,
         xp: 22,
         baseInterval: 5.0,
-        logPrice: 10
+        sellPrice: 10
     },
 
     {
@@ -32,7 +32,7 @@ export const trees = [
         levelRequired: 35,
         xp: 30,
         baseInterval: 6.0,
-        logPrice: 20
+        sellPrice: 20
     },
 
     {
@@ -41,7 +41,7 @@ export const trees = [
         levelRequired: 40,
         xp: 75,
         baseInterval: 9.0,
-        logPrice: 45
+        sellPrice: 45
     },
 
     {
@@ -50,7 +50,7 @@ export const trees = [
         levelRequired: 45,
         xp: 40,
         baseInterval: 8.0,
-        logPrice: 35
+        sellPrice: 35
     },
 
     {
@@ -59,7 +59,7 @@ export const trees = [
         levelRequired: 55,
         xp: 60,
         baseInterval: 10.0,
-        logPrice: 50
+        sellPrice: 50
     },
 
     {
@@ -68,7 +68,7 @@ export const trees = [
         levelRequired: 60,
         xp: 80,
         baseInterval: 12.0,
-        logPrice: 75
+        sellPrice: 75
     },
 
     {
@@ -77,7 +77,7 @@ export const trees = [
         levelRequired: 65,
         xp: 80,
         baseInterval: 13.0,
-        logPrice: 66
+        sellPrice: 66
     },
 
     {
@@ -86,7 +86,7 @@ export const trees = [
         levelRequired: 75,
         xp: 100,
         baseInterval: 20.0,
-        logPrice: 400
+        sellPrice: 400
     },
 
     {
@@ -95,6 +95,6 @@ export const trees = [
         levelRequired: 90,
         xp: 180,
         baseInterval: 15.0,
-        logPrice: 25
+        sellPrice: 25
     }
 ];
