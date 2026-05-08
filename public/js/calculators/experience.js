@@ -1,9 +1,9 @@
 
-function nextLevel(l) {
+export function xpForLevel(l) {
     return Math.round((1 / 4) * (l - 1 + 300 * Math.pow(2, (l - 1) / 7)));
 }
 
-function toLevel(currentLevel, targetLevel) {
+export function xpForMaxLevel(currentLevel, targetLevel) {
     let sum = 0;
 
     for(let level = currentLevel; level <= targetLevel - 1; level++){
@@ -13,7 +13,3 @@ function toLevel(currentLevel, targetLevel) {
 
     return Math.round((1/4) * sum);
 }
-
-
-console.log(nextLevel(99));
-console.log(toLevel(1, 99));
