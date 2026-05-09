@@ -1,6 +1,6 @@
 import { xpForLevel } from "./experience.js";
 
-export function simulateMastery({
+export function simulateMasteryProgression({
   startLevel,
   startXP,
   targetLevel,

@@ -1,7 +1,7 @@
 export async function loadMasteryModal() {
 
   const response =
-    await fetch("../components/mastery-modal.html");
+    await fetch("components/mastery-modal.html");
 
   const html =
     await response.text();
